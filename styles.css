@@ -10,19 +10,19 @@ body {
 #logo {
   max-height: 200px;
   max-width: 200px;
-  margin: 0px;
-  padding: 25px;
+  align: left;
 }
 
 #title {
   color: #FFFFFF;
+  font-size: 32px;
 }
 
 #content {
   display: block;
   width: 90%;
   max-width: 1000px;
-  margin: auto;
+  margin: 0px;
 }
 
 section {
@@ -133,4 +133,26 @@ footer {
     border-top: unset;
     border-bottom: unset;
   }
+}
+
+@media (min-width: 1102px) {
+    #title {
+      padding-right: 250px;
+      padding-top: 25px;
+      float: right;
+    }
+    #logo {
+      margin: 0px;
+      padding: 25px;
+    }
+  }
+
+  @media (max-width: 1101px) {
+      #logo {
+        margin-top: 25px;
+        margin-left: 25px;
+      }
+      #title {
+        margin-left: 25px;
+    }
 }
