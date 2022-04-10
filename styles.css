@@ -25,6 +25,20 @@ body {
   margin: 0px;
 }
 
+.page-title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+#map {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 25px;
+}
+
 section {
   margin: 4rem auto;
   display: block;
