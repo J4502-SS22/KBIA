@@ -24,7 +24,7 @@ section {
 }
 
 nav {
-  background: #335E75;
+  background: #0052BD;
 }
 
 nav ul {
@@ -66,12 +66,12 @@ nav a {
 
 nav a:focus {
   background: #FFFFFF;
-  color: #2D5D6C;
+  color: #0052BD;
 }
 
 .active {
-  color: #335E75;
-  background: #000000;
+  color: #0052BD;
+  background: #0D3E5E;
 }
 
 .projects ul {
@@ -86,7 +86,7 @@ nav a:focus {
 }
 
 footer {
-  background: #335E75;
+  background: #0052BD;
   color: #ffffff;
   text-align:center;
   margin-top: 1rem;
