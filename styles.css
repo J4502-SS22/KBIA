@@ -32,6 +32,20 @@ body {
   padding: 10px;
 }
 
+.listing {
+  margin-left: 12.5em;
+  margin-right: 12.5em;
+  width: 50%;
+  padding: 0px;
+}
+
+.detail-head {
+  margin-left: 16.5em;
+  margin-right: 16.5em;
+  width: 50%;
+  padding: 0px;
+}
+
 #map {
   margin-left: auto;
   margin-right: auto;
@@ -105,6 +119,15 @@ nav a:focus {
 .projects li {
   margin: 1rem 0px;
   display: block;
+}
+
+p {
+  font-size: 1em;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 20em;
+  margin-inline-end: 20em;
 }
 
 footer {
