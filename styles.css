@@ -2,8 +2,6 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: 'Zilla Slab', serif;
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
 }
 
@@ -38,15 +36,14 @@ body {
   margin-right: auto;
   width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .detail-head {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  display: flex;
-  justify-content: center;
+  margin-block-end: 1em;
+  margin-inline-start: 4.25em;
+  margin-inline-end: 5em;
+  justify-content: flex-start;
 }
 
 #map {
@@ -65,6 +62,12 @@ body {
   padding: 25px;
   display: flex;
   justify-content: center;
+}
+
+section.list {
+  max-width: 900px;
+  text-align: left;
+  margin: 0px auto;
 }
 
 section {
@@ -102,7 +105,6 @@ nav li {
 a {
   color: #335E75;
   font-weight: bold;
-  display: inline-block;
 }
 
 nav a {
