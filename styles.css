@@ -171,7 +171,7 @@ footer {
   text-align: center;
 }
 
-.footer-box a {
+.contact-info-2 a {
     color: #FFFFFF;
     text-decoration: none;
     padding: 1.25rem;
@@ -179,6 +179,11 @@ footer {
     height: 100%;
     display: block;
     box-sizing: border-box;
+}
+
+.footer-box a {
+    color: #FFFFFF;
+    text-decoration: underline;
 }
 
 .footer-box a:focus {
@@ -242,9 +247,10 @@ footer {
     justify-content: flex-start;
     align-items: center;
     font-size: 1rem;
+    padding-bottom: 1rem;
   }
 
-  .footer-box a {
+  .contact-info-2 a {
       color: #FFFFFF;
       text-decoration: none;
       padding: 1rem;
@@ -252,6 +258,11 @@ footer {
       height: 100%;
       display: block;
       box-sizing: border-box;
+  }
+
+  .footer-box a {
+      color: #FFFFFF;
+      text-decoration: underline;
   }
 
   nav li {
