@@ -8,7 +8,6 @@ body {
 #logo {
   max-height: 200px;
   max-width: 200px;
-  align: left;
 }
 
 #title {
@@ -243,7 +242,6 @@ footer {
     flex-direction: row;
     width: 100%;
     height: 33.333333%;
-    display: flex;
     justify-content: flex-start;
     align-items: center;
     font-size: 1rem;
@@ -291,8 +289,37 @@ footer {
       #logo {
         margin-top: 25px;
         margin-left: 25px;
+        margin-bottom: 25px;
       }
       #title {
+        margin-top: 0px;
         margin-left: 25px;
     }
+}
+
+@media (max-width: 811px) {
+  .footer-box {
+    flex-direction: column;
+    width: 100%;
+    height: 33.333333%;
+    align-items: center;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .contact-info-2 a {
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 1rem;
+      width: 100%;
+      height: 100%;
+      display: block;
+      box-sizing: border-box;
+  }
+
+  .footer-box a {
+      color: #FFFFFF;
+      text-decoration: underline;
+      text-align: center;
+  }
 }
