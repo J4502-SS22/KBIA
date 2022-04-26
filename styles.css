@@ -1,0 +1,287 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Zilla Slab', serif;
+  min-height: 100vh;
+}
+
+#logo {
+  max-height: 200px;
+  max-width: 200px;
+  align: left;
+}
+
+#title {
+  color: #FFFFFF;
+  font-size: 32px;
+}
+
+#content {
+  display: block;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0px;
+}
+
+.page-title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.listing {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.detail-head {
+  margin-block-end: 1em;
+  margin-inline-start: 4.25em;
+  margin-inline-end: 5em;
+  justify-content: flex-start;
+}
+
+#map {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+#calendar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+section.list {
+  max-width: 900px;
+  text-align: left;
+  margin: 0px auto;
+}
+
+section {
+  margin: 4rem auto;
+  display: block;
+}
+
+nav {
+  background: #0052BD;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  height: 100%;
+}
+
+nav li {
+  width: 100%;
+  height: 33.333333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+}
+
+a {
+  color: #335E75;
+  font-weight: bold;
+  display: inline-flex;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+nav a:focus {
+  background: #FFFFFF;
+  color: #0052BD;
+}
+
+.active {
+  color: #0052BD;
+  background: #0D3E5E;
+}
+
+.projects ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.projects li {
+  margin: 1rem 0px;
+  display: block;
+}
+
+p {
+  font-size: 1em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 5em;
+  margin-inline-end: 5em;
+}
+
+footer {
+  background: #0052BD;
+  color: #ffffff;
+  text-align:center;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-box {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: stretch;
+  margin: 0;
+  padding: 0px;
+  height: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.footer-box a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 1.25rem;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.footer-box a:focus {
+  background: #FFFFFF;
+  color: #0052BD;
+  width: 100%;
+}
+
+.contact-info {
+  display: block;
+  text-align: left;
+  box-sizing: content-box;
+  text-align: left;
+  font-size: 1em;
+  font-style: normal;
+  margin: inherit;
+  padding-left: 35px;
+  padding-right: 20px;
+  border-style: hidden;
+}
+
+.contact-info-2 {
+  display: block;
+  text-align: left;
+  box-sizing: content-box;
+  text-align: left;
+  font-size: 1.25em;
+  margin: inherit;
+  background-color: #0D3E5E;
+}
+
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+  font-size: 1.5rem;
+}
+
+.skip-link:focus {
+  width: unset;
+  height: unset;
+  position: relative;
+  margin: unset;
+  padding: unset;
+}
+
+@media (min-width: 655px) {
+  nav ul {
+    flex-direction: row;
+  }
+
+  .footer-box {
+    flex-direction: row;
+    width: 100%;
+    height: 33.333333%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .footer-box a {
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 1rem;
+      width: 100%;
+      height: 100%;
+      display: block;
+      box-sizing: border-box;
+  }
+
+  nav li {
+    height: 100%;
+    width: 33.333333%;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    border-top: unset;
+    border-bottom: unset;
+  }
+}
+
+@media (min-width: 1102px) {
+    #title {
+      padding-right: 250px;
+      padding-top: 25px;
+      float: right;
+    }
+    #logo {
+      margin: 0px;
+      padding: 25px;
+    }
+  }
+
+  @media (max-width: 1101px) {
+      #logo {
+        margin-top: 25px;
+        margin-left: 25px;
+      }
+      #title {
+        margin-left: 25px;
+    }
+}
