@@ -157,6 +157,26 @@ footer {
   box-sizing: border-box;
 }
 
+.footer-box {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: center;
+  margin: 0;
+  padding: 0px;
+  height: 100%;
+}
+
+.footer-box a {
+  color: #FFFFFF;
+}
+
+.contact-info {
+  display: block;
+  text-align: left;
+}
+
 .skip-link {
   position: absolute;
   width: 1px;
@@ -180,6 +200,11 @@ footer {
   nav ul {
     flex-direction: row;
   }
+
+  .footer-box {
+    flex-direction: row;
+  }
+
   nav li {
     height: 100%;
     width: 33.333333%;
