@@ -56,7 +56,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  wdith: 25%;
+  width: 25%;
+  min-width: 200px;
   justify-content: center;
 }
 
