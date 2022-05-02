@@ -52,6 +52,14 @@ body {
   justify-content: flex-start;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  wdith: 25%;
+  justify-content: center;
+}
+
 #map {
   margin-left: auto;
   margin-right: auto;
